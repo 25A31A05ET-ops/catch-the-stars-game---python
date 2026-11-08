@@ -1,0 +1,25 @@
+Catch the Falling Stars — Project Report
+1. Abstract
+Catch the Falling Stars is a simple two-dimensional arcade game developed using Python and the Pygame library. The game features a player-controlled basket that moves horizontally across the bottom of the screen to catch stars falling from the night sky. Each successfully caught star increases the player's score, while every star that falls beyond the screen increases the missed-star count. The game ends when the player misses five stars.
+
+The game incorporates fundamental programming concepts, including variables, loops, conditional statements, functions, random number generation, keyboard input handling, collision detection, and graphical rendering. Its retro pixel-art design, score display, start screen, and restart functionality provide an engaging gaming experience while demonstrating the practical application of Python programming.
+2. Problem statement
+The objective is to develop an interactive arcade game that allows a player to control a basket, catch randomly falling stars, maintain a score, and complete the game under a defined set of rules.
+3. Objectives
+- Develop a simple interactive game using Python and Pygame.
+- Create a retro pixel-art night-sky environment.
+- Implement basket movement using keyboard controls.
+- Generate stars at random positions and speeds.
+- Detect collisions between the basket and falling stars.
+- Maintain a score and missed-star counter.
+- Display start and game-over screens.
+- Allow the player to restart the game.
+4. Software and hardware requirements
+Category	Requirement
+Programming language	Python 3
+Game development library	Pygame
+Modules	pygame, random
+Operating system	Windows, Linux or macOS with Pygame support
+Input device	Keyboard
+Display resolution	640 × 480 pixels
+Development environment	Python IDE or a browser-based environment supporting Pygame
