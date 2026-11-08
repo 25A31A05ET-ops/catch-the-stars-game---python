@@ -23,3 +23,47 @@ Operating system	Windows, Linux or macOS with Pygame support
 Input device	Keyboard
 Display resolution	640 × 480 pixels
 Development environment	Python IDE or a browser-based environment supporting Pygame
+5. Main modules
+- Initialization: Sets up the game window, clock, fonts, and colors.
+- Star generation: Creates stars at random positions and assigns speeds and colors.
+- Player movement: Moves the basket using the left and right arrow keys.
+- Collision detection: Checks whether falling stars overlap the basket.
+- Score management: Increases the score when stars are caught.
+- Miss tracking: Counts stars that fall beyond the screen.
+- Game-state management: Controls the start, playing, and game-over screens.
+6.Testing
+Test case	Expected result
+Press Space	Game starts
+Press left arrow	Basket moves left
+Press right arrow	Basket moves right
+Catch a star	Score increases by one
+Miss a star	Miss count increases by one
+Miss five stars	Game-over screen appears
+Press R after game over	Game restarts
+Close the window	Game terminates
+7. Advantages
+- Easy to understand and play.
+- Demonstrates core Python programming concepts.
+- Does not require external image assets.
+- Includes interactive controls and score tracking.
+- Can be extended with additional game features.
+8. Limitations
+- Supports keyboard controls only.
+- Does not save high scores between sessions.
+- Does not include sound effects.
+- Uses a single main gameplay mode.
+9. Future enhancements
+- Add sound effects and background music.
+- Introduce multiple difficulty levels.
+- Save the highest score.
+- Add power-ups and bonus stars.
+- Introduce a pause menu.
+- Add touch controls for mobile devices.
+10. Conclusion
+The Catch the Falling Stars project demonstrates how Python and Pygame can be used to develop a basic interactive arcade game. It integrates graphical rendering, keyboard input, randomized object generation, collision detection, and score management into a single application. The project provides a foundation for further learning and future improvements in game development.
+11. Team members
+All members are listed equally. There is no designated team lead.
+1. Vasamsetti Jahnavi Devi
+2. Vasamsetti Prudhvi
+3. Mummidi Pavan Surya Chaitanya
+4. Tavva Kishore
