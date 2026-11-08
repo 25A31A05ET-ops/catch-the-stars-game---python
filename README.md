@@ -1,1 +1,91 @@
 # catch-the-stars-game---python
+Catch the Falling Stars — Project Report
+1. Abstract
+Catch the Falling Stars is a simple two-dimensional arcade game developed using Python and the Pygame library. The game features a player-controlled basket that moves horizontally across the bottom of the screen to catch stars falling from the night sky. Each successfully caught star increases the player's score, while every star that falls beyond the screen increases the missed-star count. The game ends when the player misses five stars.
+
+The game incorporates fundamental programming concepts, including variables, loops, conditional statements, functions, random number generation, keyboard input handling, collision detection, and graphical rendering. Its retro pixel-art design, score display, start screen, and restart functionality provide an engaging gaming experience while demonstrating the practical application of Python programming.
+2. Problem statement
+The objective is to develop an interactive arcade game that allows a player to control a basket, catch randomly falling stars, maintain a score, and complete the game under a defined set of rules.
+3. Objectives
+- Develop a simple interactive game using Python and Pygame.
+- Create a retro pixel-art night-sky environment.
+- Implement basket movement using keyboard controls.
+- Generate stars at random positions and speeds.
+- Detect collisions between the basket and falling stars.
+- Maintain a score and missed-star counter.
+- Display start and game-over screens.
+- Allow the player to restart the game.
+4. Software and hardware requirements
+Category	Requirement
+Programming language	Python 3
+Game development library	Pygame
+Modules	pygame, random
+Operating system	Windows, Linux or macOS with Pygame support
+Input device	Keyboard
+Display resolution	640 × 480 pixels
+Development environment	Python IDE or a browser-based environment supporting Pygame
+
+5. Algorithm
+1. Start the program.
+2. Initialize Pygame and create the game window.
+3. Set the window dimensions, colors, fonts, clock, basket position, score, and missed-star counter.
+4. Display the start screen.
+5. Wait for the player to press the Space key.
+6. Reset the game variables and begin gameplay.
+7. Read keyboard input and move the basket left or right.
+8. Restrict the basket to the screen boundaries.
+9. Generate stars at regular intervals using random positions, colors, and speeds.
+10. Move each star downward on every game frame.
+11. Check whether a star collides with the basket.
+12. If a collision occurs, remove the star and increment the score.
+13. Otherwise, if the star passes the bottom of the screen, remove it and increment the missed-star counter.
+14. If five stars have been missed, display the game-over screen.
+15. Display the current game state and refresh the screen.
+16. Repeat the gameplay loop until the window is closed or the player reaches the game-over state.
+17. Allow the player to press R to restart.
+18. Quit Pygame and terminate the program.
+6. Main modules
+- Initialization: Sets up the game window, clock, fonts, and colors.
+- Star generation: Creates stars at random positions and assigns speeds and colors.
+- Player movement: Moves the basket using the left and right arrow keys.
+- Collision detection: Checks whether falling stars overlap the basket.
+- Score management: Increases the score when stars are caught.
+- Miss tracking: Counts stars that fall beyond the screen.
+- Game-state management: Controls the start, playing, and game-over screens.
+6. Testing
+Test case	Expected result
+Press Space	Game starts
+Press left arrow	Basket moves left
+Press right arrow	Basket moves right
+Catch a star	Score increases by one
+Miss a star	Miss count increases by one
+Miss five stars	Game-over screen appears
+Press R after game over	Game restarts
+Close the window	Game terminates
+
+8. Advantages
+- Easy to understand and play.
+- Demonstrates core Python programming concepts.
+- Does not require external image assets.
+- Includes interactive controls and score tracking.
+- Can be extended with additional game features.
+9. Limitations
+- Supports keyboard controls only.
+- Does not save high scores between sessions.
+- Does not include sound effects.
+- Uses a single main gameplay mode.
+  10. Future enhancements
+- Add sound effects and background music.
+- Introduce multiple difficulty levels.
+- Save the highest score.
+- Add power-ups and bonus stars.
+- Introduce a pause menu.
+- Add touch controls for mobile devices.
+  11. Conclusion
+The Catch the Falling Stars project demonstrates how Python and Pygame can be used to develop a basic interactive arcade game. It integrates graphical rendering, keyboard input, randomized object generation, collision detection, and score management into a single application. The project provides a foundation for further learning and future improvements in game development.
+12. Team members
+All members are listed equally. There is no designated team lead.
+1. Vasamsetti Jahnavi Devi
+2. Vasamsetti Prudhvi
+3. Mummidi Pavan Surya Chaitanya
+4. Tavva Kishore
