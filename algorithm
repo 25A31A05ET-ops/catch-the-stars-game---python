@@ -1,0 +1,19 @@
+Algorithm
+1. Start the program.
+2. Initialize Pygame and create the game window.
+3. Set the window dimensions, colors, fonts, clock, basket position, score, and missed-star counter.
+4. Display the start screen.
+5. Wait for the player to press the Space key.
+6. Reset the game variables and begin gameplay.
+7. Read keyboard input and move the basket left or right.
+8. Restrict the basket to the screen boundaries.
+9. Generate stars at regular intervals using random positions, colors, and speeds.
+10. Move each star downward on every game frame.
+11. Check whether a star collides with the basket.
+12. If a collision occurs, remove the star and increment the score.
+13. Otherwise, if the star passes the bottom of the screen, remove it and increment the missed-star counter.
+14. If five stars have been missed, display the game-over screen.
+15. Display the current game state and refresh the screen.
+16. Repeat the gameplay loop until the window is closed or the player reaches the game-over state.
+17. Allow the player to press R to restart.
+18. Quit Pygame and terminate the program.
